@@ -1,0 +1,12 @@
+# Dockerfile_mageai
+FROM mageai/mageai:latest
+
+# Set working directory
+WORKDIR /app
+
+# Install dependencies if needed
+# COPY requirements.txt .
+# RUN pip install -r requirements.txt
+
+# Expose the default Mage AI port
+EXPOSE 6789

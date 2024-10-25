@@ -1,0 +1,9 @@
+# Dockerfile_pgadmin
+FROM dpage/pgadmin4:latest
+
+# Environment variables for default email and password setup
+ENV PGADMIN_DEFAULT_EMAIL=rukevweubioworo@gmail.com
+ENV PGADMIN_DEFAULT_PASSWORD=admin
+
+# Expose pgAdmin’s default port
+EXPOSE 80

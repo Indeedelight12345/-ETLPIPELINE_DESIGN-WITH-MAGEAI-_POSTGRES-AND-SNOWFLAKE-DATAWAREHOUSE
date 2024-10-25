@@ -1,0 +1,10 @@
+# Dockerfile_postgres
+FROM postgres:latest
+
+# Set environment variables for default user, password, and database
+ENV POSTGRES_USER=root
+ENV POSTGRES_PASSWORD=root
+ENV POSTGRES_DB=ny_taxi_design_database
+
+# Expose the default PostgreSQL port
+EXPOSE 5432
